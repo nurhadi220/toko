@@ -97,7 +97,7 @@
             <!-- avatar -->
             <div class="avatar">
                 <div class="w-24 rounded-full">
-                    <img class="mask mask-hexagon" src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg" />
+                    <img class="mask mask-hexagon" src="img/logo.png" />
                 </div>
             </div>
             <!-- avatar -->
@@ -106,7 +106,7 @@
             <ul class="menu p-4 w-80 min-h-full bg-base-300 text-base-content">
                 <!-- Sidebar content here -->
                 <li><a>DASBOARD</a></li>
-                <li><a>Logout</a></li>
+                <li><a href="login.blade.php">Logout</a></li>
             </ul>
 
         </div>

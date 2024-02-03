@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/tes', function () {
     return view('arofan');
 });
+Route::get('/log', function () {
+    return view('login');
+});
