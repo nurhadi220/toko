@@ -86,10 +86,22 @@
             <!-- Nanti di hubungkan dengan database -->
             <!-- upload item baru -->
             <div class="flex w-full">
-                <div class="grid h-96 flex-grow card bg-base-300 rounded-box place-items-center">
-                    <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+                <div class="grid h-96 flex-grow card bg-base-300 rounded-box place-items-center justify-start items-start pl-10">
+                    <form action="#" method="post" class="pt-10 w-full">
+                        <p>Masukan Juduk barang</p>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <p>Harga Barang</p>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <p>Stok Barang</p>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <p>Keterangan</p>
+                        <textarea class="textarea textarea-info" placeholder="Bio"></textarea>
+                    </form>
+                    <button class="btn btn-outline justify-end">Submit</button>
                 </div>
-                <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">content</div>
+                <div class="grid h-98 flex-grow card bg-base-300 rounded-box place-items-center justify-start items-start pl-10">
+                    <input type="file" class="file-input file-input-bordered w-full max-w-xs" />
+                </div>
             </div>
             <!-- upload item baru -->
         </div>
